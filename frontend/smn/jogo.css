@@ -1,0 +1,170 @@
+
+table, td {
+    border: 4px solid rgb(0, 0, 0); 
+}
+button{
+    border-radius: 30px;
+    width: 170px;
+    height: 30px;  
+    font-size: 20px;
+    background-color: rgb(3, 90, 90);
+    border: none;
+    outline: none;
+    cursor: pointer;   
+    color: white;
+    -webkit-transition-duration: 0.4s;
+}
+#comecar{
+    border-radius: 30px;
+    width: 170px;
+    height: 30px;  
+    font-size: 20px;
+    background-color: rgb(3, 90, 90);
+    border: none;
+    outline: none;
+    cursor: pointer;   
+    color: white;
+    -webkit-transition-duration: 0.4s;
+}
+#comecar:hover{
+    color: rgb(3, 90, 90);
+    background-color: rgb(255, 255, 255);
+}
+button:hover{
+    color: rgb(3, 90, 90);
+    background-color: rgb(255, 255, 255);
+}
+td{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box      
+}
+table {
+    border-collapse: collapse;
+    width: 475px;
+    height: 475px;
+    z-index: -1;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(1, 139, 139, 0.349);
+  }
+
+h1{
+    text-align: center;
+}
+
+td img{
+    width: 90px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#geral img{
+    width: 475px;
+    height: 475px;
+}
+
+#container img{
+    position: absolute;
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 768px){
+    table{
+        width: 400px;
+        height: 400px;
+        box-sizing: border-box; 
+    }
+    td{
+        height: 60px;
+        width: 60px;
+    }
+    td img{
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    table{
+        width: 250px;
+        height: 250px;
+        box-sizing: border-box; 
+    }
+    td{
+        height: 70px;
+        width: 70px;
+    }
+    td img{
+        width: 50px;
+    }
+    #container img{
+        width: 270px;
+        height: 190px;
+    }
+}
+
+
+@media only screen and (max-width: 450px){
+    table{
+        width: 200px;
+        height: 200px;
+        box-sizing: border-box; 
+        margin-top:12px;
+    }
+    td img{
+        width: 30px;
+    }
+    td{
+        height: 0px;
+    }
+    #placar{
+        top: 350px;
+        left: 100px;
+      
+    }  
+      td{
+        width: 50px;
+        height: 50px;
+    }
+    #container img{
+        width: 220px;
+        height: 150px;
+        margin: auto;
+      
+    }
+    button{
+        width: 150px;
+        height: 20px;
+        font-size: 15px; 
+        }
+        #comecar{
+        width: 150px;
+        height: 20px; 
+        font-size: 15px;    
+        }
+}
+
+@media only screen and (max-width: 411px){
+    #placar{
+        display: block;
+    }
+
+    td img{
+        width: 30px;
+    }
+    button{
+    width: 150px;
+    height: 20px; 
+    font-size: 15px; 
+    }
+    #comecar{
+    width: 150px;
+    height: 20px;  
+    font-size: 15px;   
+    }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width = device-width, initial-scale = 1">
+	<script type="text/javascript" src="jogo.js"></script>
+	<link rel="stylesheet" href="jogo.css">
+	<title>Jogo Da velha</title>
+</head>
+
+<body style="background-color:rgb(2, 51, 83)" onload="iniciar()">
+	<h1 id='title' style="color:white">JOGO DA VELHA</h1>
+	<div style="text-align: center">
+		<input type="button" onclick='comecar()' id="comecar" style="margin-bottom: 12px" value="Comecar"></button>
+		<button onclick='reiniciar()'>Resetar Placar</button>
+		<a href="./vitorias.html">Os Melhores</a>
+		<a href="./derrotas.html">Os Piores</a>
+	</div>
+
+
+	<div id="player1" style="position:absolute; color: white;">
+		<h2 id="player" style="color: white;"></h2>
+		<h2 id='vit_player'></h2>
+		<h2 id='der_player'></h2>
+		<h1 id="img_p1" ></h1>
+		<a href="../index.html" id="link">Fazer login</a>
+	</div>
+
+	<div id="player_2" style="position:absolute; left:1000px; color: white;">
+		<h2 id="player2" style="color: white;"></h2>
+		<h2 id='vit_player2'></h2>
+		<h2 id='der_player2'></h2>
+		<h1 id="img_p2" ></h1>
+		<a href="../index.html" id="link2">Fazer login</a>
+	</div>
+	<span id='container'></span>
+
+	<table id='tabela'>
+
+		<tr>
+			<td onclick="teste1()" id='td1'></td>
+			<td onclick="teste2()" id='td2'></td>
+			<td onclick="teste3()" id='td3'></td>
+		</tr>
+		<tr>
+			<td onclick="teste4()" id='td4'></td>
+			<td onclick="teste5()" id='td5'></td>
+			<td onclick="teste6()" id='td6'></td>
+		</tr>
+		<tr>
+			<td onclick="teste7()" id='td7'></td>
+			<td onclick="teste8()" id='td8'></td>
+			<td onclick="teste9()" id='td9'></td>
+		</tr>
+	</table>
+
+
+
+	<h2 id='vencendor' style="text-align: center"></h2>
+
+</body>
+
+</html>
