@@ -16,7 +16,7 @@
     "express": "4.17.0",
     "mongodb": "^3.2.6",
     "pg": "^6.4.2",
-    "mongoose": "^4.7.0",
+    "mongoose": "^5.7.5",
     "node-restful": "^0.2.5",
     "pm2": "^2.1.5"
   },
